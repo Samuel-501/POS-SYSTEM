@@ -70,38 +70,38 @@
                 <label for="working-hrs" class="fs-5 mb-2">Working Hours:</label>
                 <input type="number" name="working-hrs" id="working-hrs" class="form-control border-dark">
             </div><!-- Working Hours end -->
-             <!-- Payment Method start -->
-             <div class="row border-dark" id="payment-method">
-                <p class="fs-5">Payment Method:</p>
-                <div class="col-4">
-                <input type="checkbox" name="cash-1" id="cash-1">
-                <label for="cash-1">Cash</label>
-            </div>
-            <div class="col-4">
-                <input type="checkbox" name="online" id="online">
-                <label for="online">Momo</label>
-                    </div>
-            <div class="col-4">
-                <input type="checkbox" name="In-Store" id="In-Store">
-                <label for="In-Store">ATM</label>
-            </div>
-            </div><br><!-- Payment Method end -->
-            <!-- Sale Type start -->
-            <div class="row border-dark" id="sale-type">
-                <p class="fs-5">Sale Type:</p>
-                <div class="col-4">
-                <input type="checkbox" name="cash-2" id="cash-2">
-                <label for="cash-2">Cash</label>
-            </div>
-            <div class="col-4">
-                <input type="checkbox" name="online" id="online">
-                <label for="online">Online</label>
-                    </div>
-            <div class="col-4">
-                <input type="checkbox" name="In-Store" id="In-Store">
-                <label for="In-Store">In-Store</label>
-            </div>
-            </div><br><!-- Sale Type end -->
+             <!-- Sale Type start -->
+              <div class="row mb-2">
+              <p class="fs-5">Sale Type:</p>
+                <div class="form-check form-switch col-4">
+                    <input class="form-check-input" type="checkbox" role="switch" id="in-store">
+                    <label class="form-check-label mt-1" for="in-store">In-Store</label>
+                  </div>
+                  <div class="form-check form-switch col-4">
+                    <input class="form-check-input" type="checkbox" role="switch" id="online" checked>
+                    <label class="form-check-label mt-1" for="online">Online</label>
+                  </div>
+                  <div class="form-check form-switch col-4">
+                    <input class="form-check-input" type="checkbox" role="switch" id="aunction" checked>
+                    <label class="form-check-label mt-1" for="aunction">Aunction</label>
+                  </div>
+            </div><!-- Sale Type end -->
+           <!-- Payment Method start -->
+           <div class="row mb-2">
+            <p class="fs-5">Payment Method:</p>
+              <div class="form-check form-switch col-4">
+                  <input class="form-check-input" type="checkbox" role="switch" id="cash">
+                  <label class="form-check-label mt-1" for="cash">Cash</label>
+                </div>
+                <div class="form-check form-switch col-4">
+                  <input class="form-check-input" type="checkbox" role="switch" id="Momo" checked>
+                  <label class="form-check-label mt-1" for="Momo">Momo</label>
+                </div>
+                <div class="form-check form-switch col-4">
+                  <input class="form-check-input" type="checkbox" role="switch" id="atm" checked>
+                  <label class="form-check-label mt-1" for="atm">ATM</label>
+                </div>
+          </div><!-- Payment Method end -->
             <!-- NextButton2 start -->
             <div class="btns-group">
                 <a href="#" class="btn butn btn-prev">Previous</a>
